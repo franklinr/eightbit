@@ -30,5 +30,6 @@ In some programmers, writeByte has address first and data second, and sometimes 
 
 One advantage of using a ribbon cable with a straightforward mapping to pins is that it is possible to easily disconnect the zif socket from the programmer and then connect it into the 8-bit computer for testing.  This means that you don't need to carefully remove the EEPROM from your board each time you want to test it.
 
-![](img/IMG_2684.jpg)
-![](img/IMG_2685.jpg)
+![](img/IMG_2684.JPG)
+
+![](img/IMG_2685.JPG)
