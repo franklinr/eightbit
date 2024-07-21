@@ -1,4 +1,4 @@
-# EEPROM programmer for AT28C16
+# Yet Another EEPROM programmer for AT28C16/sst39sf0
 
 ![](img/IMG_2682.JPG)
 
