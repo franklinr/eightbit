@@ -13,20 +13,22 @@ https://github.com/beneater/eeprom-programmer
 
 Some of these programs use shift registers, but since the mega has enough pins, we are just directly writing pins
 
-most programmers have some complicated wiring scheme, but I wanted
-a simple wire scheme and then a way to link the wires in the code.
-I use a ribbon cable which fits into the 22-52 pins.
+Most programmers have a complicated wiring scheme, but I wanted a simple wire scheme.  I use a ribbon cable which fits into the 22-52 pins.  It is easier to change the wires in the code, rather than the physical wires.
 
 ![](img/IMG_2689.JPG)
 
 ![](img/IMG_2688.JPG)
 
-I use simple serial monitor for commands.  
+Some programs have a complicated parser in the serial monitor and I had trouble getting it to work.  So I am using a simple serial monitor where a single letter triggers a function.  
 
 ![](img/menu.png)
 
-The final goal was to have similar code for programming eeproms like the at28C16pc.
-The wiring does not need to be changed, just different pins are defined at the start.
-the same function names are used, but some of the code inside is different.
-In some programmers, writeByte has address first and data second, and sometimes it is reversed.
-I prefer putting address is first.
+One goal was to have similar code for programming different eeproms such as SST39F0.
+The same wiring can be used for both programmers with just different pins defined in code.
+
+In some programmers, writeByte has address first and data second, and sometimes it is reversed. I prefer putting address is first.
+
+One advantage of using a ribbon cable with a straightforward mapping to pins is that it is possible to easily disconnect the zif socket from the programmer and then connect it into the 8-bit computer for testing.  This means that you don't need to carefully remove the EEPROM from your board each time you want to test it.
+
+![](img/IMG_2684.jpg)
+![](img/IMG_2685.jpg)
