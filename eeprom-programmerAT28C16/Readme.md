@@ -21,7 +21,9 @@ I use a ribbon cable which fits into the 22-52 pins.
 
 ![](img/IMG_2688.JPG)
 
-I use simple serial monitor for commands.  One character calls a function.
+I use simple serial monitor for commands.  
+
+![](img/menu.png)
 
 The final goal was to have similar code for programming eeproms like the at28C16pc.
 The wiring does not need to be changed, just different pins are defined at the start.
