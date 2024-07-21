@@ -13,7 +13,7 @@ https://github.com/beneater/eeprom-programmer
 
 Some of these programs use shift registers, but since the mega has enough pins, we are just directly writing pins
 
-Most programmers have a complicated wiring scheme, but I wanted a simple wire scheme.  I use a ribbon cable which fits into the 22-52 pins.  It is easier to change the wires in the code, rather than the physical wires.
+Most programmers have a complicated wiring scheme, but I wanted a simple wire scheme.  I use a ribbon cable which fits into the 22-52 pins.  It is easier to change the wires in the code, rather than the physical wires.  The left side of the chip is on the even pins (ending with GND) and the right side of the chip is on the odd pins (starting with VCC).
 
 ![](img/IMG_2689.JPG)
 
