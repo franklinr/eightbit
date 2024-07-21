@@ -1,5 +1,7 @@
 EEPROM programmer for AT28C16
 
+![](img/IMG_2682.JPG)
+
 Code for using arduino mega for programming at28C16pc eeprom chips
 based on code from ben eater, jmd9999, doctor audrey
 
@@ -15,7 +17,9 @@ most programmers have some complicated wiring scheme, but I wanted
 a simple wire scheme and then a way to link the wires in the code.
 I use a ribbon cable which fits into the 22-52 pins.
 
-![](history2.png)
+![](img/IMG_2689.JPG)
+
+![](img/IMG_2688.JPG)
 
 I use simple serial monitor for commands.  One character calls a function.
 
