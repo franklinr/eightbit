@@ -1,4 +1,4 @@
-EEPROM programmer for AT28C16
+# EEPROM programmer for AT28C16
 
 ![](img/IMG_2682.JPG)
 
