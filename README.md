@@ -2,6 +2,8 @@
 
 This is a repository of various bits of code related to my version of [Ben Eater's 8-bit computer](https://eater.net/8bit/).  This is mainly to remind me what I have done, but maybe it is useful for others too.  Here is a video of the [computer computing the Fibonacci sequence](https://www.youtube.com/watch?v=IHi4pi4AkN4).
 
+![](eightbit.png)
+
 One of the main differences is in the bus and control logic.  [Ben Eater's control logic](https://www.youtube.com/watch?v=FCscQGBIL-Y) controls individual binary signals for each component that is connected to the bus.  In my computer, I have one output decoder with three bits that control which component is outputting to the bus and another decoder with four bits that controls which component is inputting to the bus. 
 
 | Number | Output Instruction   | Name OUT |   | Name IN              | Name IN |
