@@ -3,13 +3,7 @@
 ![](img/IMG_2682.JPG)
 
 Code for using arduino mega for programming at28C16pc and SST39F0 eeprom chips
-based on code from ben eater, jmd9999, doctor audrey
-
-https://forum.arduino.cc/t/cannot-erase-write-sst39sf010a-flash-memory/951490
-
-https://github.com/doctorandrey/39SF040_Programmer
-
-https://github.com/beneater/eeprom-programmer
+based on code from [ben eater](https://github.com/beneater/eeprom-programmer), [jmd9999](https://forum.arduino.cc/t/cannot-erase-write-sst39sf010a-flash-memory/951490), and [doctor audrey](https://github.com/doctorandrey/39SF040_Programmer).
 
 Some of these programs use shift registers, but since the mega has enough pins, we are just directly writing pins
 
@@ -30,3 +24,15 @@ One advantage of using a ribbon cable with a straightforward mapping to pins is 
 
 ![](img/IMG_2685.JPG)
 
+[Ben Eater's control logic](https://www.youtube.com/watch?v=FCscQGBIL-Y) involves individual binary signals for each component that is connected to the bus.  [In my computer](https://www.youtube.com/watch?v=CHGl77YNiHg), I have one output decoder with three bits that control which component is outputting to the bus and another decoder with four bits that controls which component is inputting to the bus.
+
+| Number | Output Instruction   | Name OUT |   | Name IN              | Name IN |
+|--------|----------------------|----------|---|----------------------|---------|
+| 0      | No operation         | NOP      |   | No operation         | NOP     |
+| 1      | Register B           | BO       |   | Register B           | BI      |
+| 2      | ALU                  | EO       |   | Register A           | AI      |
+| 3      | Register A           | AO       |   | Instruction Register | II      |
+| 4      | Instruction Register | IO       |   | Display              | OUT     |
+| 5      | Program Counter      | CO       |   | Memory Register      | MI      |
+| 6      | Memory Register      | MO       |   | RAM                  | RI      |
+| 7      | RAM                  | RO       |   | JUMP                 | J       |
