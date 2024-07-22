@@ -14,6 +14,7 @@ One of the main differences is in the bus and control logic.  [Ben Eater's contr
 | 5      | Program Counter      | CO       |   | Memory Register      | MI      |
 | 6      | Memory Register      | MO       |   | RAM                  | RI      |
 | 7      | RAM                  | RO       |   | JUMP                 | J       |
+
 You can see how it functions [here](https://www.youtube.com/watch?v=CHGl77YNiHg).  With these decoders, you only need one eeprom to control the computer (as opposed to the two that Ben uses).
 
 - [Yet Another EEPROM programmer](https://github.com/franklinr/eightbit/tree/365b3baa6161d407396759152b12193fe1314522/Yet_Another_EEPROM_programmer):  This is an EEPROM programmar for the AT28C16/sst39sf0 chips with a simple wiring scheme and serial monitor program.
