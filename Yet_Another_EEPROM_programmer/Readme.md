@@ -3,7 +3,7 @@
 ![](img/IMG_2682.JPG)
 
 Code for using arduino mega for programming at28C16pc and SST39F0 eeprom chips
-based on code from [ben eater](https://github.com/beneater/eeprom-programmer), [jmd9999](https://forum.arduino.cc/t/cannot-erase-write-sst39sf010a-flash-memory/951490), and [doctor audrey](https://github.com/doctorandrey/39SF040_Programmer).
+based on code from [ben eater](https://github.com/beneater/eeprom-programmer), [Tommyprom](https://tomnisbet.github.io/TommyPROM/), [jmd9999](https://forum.arduino.cc/t/cannot-erase-write-sst39sf010a-flash-memory/951490), and [doctor audrey](https://github.com/doctorandrey/39SF040_Programmer).
 
 Some of these programs use shift registers, but since the mega has enough pins, we are just directly writing pins
 
