@@ -19,4 +19,4 @@ One of the main differences is in the bus and control logic.  [Ben Eater's contr
 
 You can see how it functions [here](https://www.youtube.com/watch?v=CHGl77YNiHg).  With these decoders, you only need one eeprom to control the computer (as opposed to the two that Ben uses).
 
-- [Yet Another EEPROM programmer](https://github.com/franklinr/eightbit/tree/365b3baa6161d407396759152b12193fe1314522/Yet_Another_EEPROM_programmer):  This is an EEPROM programmar for the AT28C16/sst39sf0 chips with a simple wiring scheme and serial monitor program.
+- [Yet Another EEPROM programmer](https://github.com/franklinr/eightbit/blob/cedbab8e126954b938e39369f0d79d1743543633/Yet_Another_EEPROM_programmer/Readme.md):  This is an EEPROM programmar for the AT28C16/sst39sf0 chips with a simple wiring scheme and serial monitor program.
